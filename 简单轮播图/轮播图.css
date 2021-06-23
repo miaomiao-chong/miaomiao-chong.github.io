@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 225px;
+    border: 1px black solid;
+    position: relative;
+    height: 225px;
+    margin: 0 auto;
+}
+.box .list{
+    height: 225px;
+    width: 225px;
+    overflow: hidden;
+}
+.box .btn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.box .btn a{
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color:rgba(0, 0,0, 0.5);
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+.box .btn a:hover{
+    color: royalblue;
+}
